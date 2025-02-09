@@ -1,0 +1,54 @@
+/* General Game Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Game Canvas */
+#gameCanvas {
+    background-color: #2b2b2b;
+    border: 2px solid white;
+    display: block;
+}
+
+/* UI Elements */
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background-color: #444;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #666;
+}
+
+/* Mini-map */
+#miniMap {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: #222;
+    border: 2px solid white;
+}
